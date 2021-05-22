@@ -38,6 +38,11 @@ namespace recipeManagement
             this.goToHomepageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -57,7 +62,11 @@ namespace recipeManagement
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(-1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(210, 751);
@@ -104,7 +113,7 @@ namespace recipeManagement
             // goToHomepageToolStripMenuItem
             // 
             this.goToHomepageToolStripMenuItem.Name = "goToHomepageToolStripMenuItem";
-            this.goToHomepageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.goToHomepageToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.goToHomepageToolStripMenuItem.Text = "Go to homepage";
             // 
             // aboutUsToolStripMenuItem
@@ -119,8 +128,51 @@ namespace recipeManagement
             // contactUsToolStripMenuItem
             // 
             this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
-            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.contactUsToolStripMenuItem.Text = "contact us";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panel4.Location = new System.Drawing.Point(3, 26);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(838, 27);
+            this.panel4.TabIndex = 3;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel5.Location = new System.Drawing.Point(209, 27);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(628, 27);
+            this.panel5.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(57, 91);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Admin";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(57, 153);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "User";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(57, 213);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "About us";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -128,6 +180,7 @@ namespace recipeManagement
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(840, 427);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel1);
@@ -155,6 +208,11 @@ namespace recipeManagement
         private System.Windows.Forms.ToolStripMenuItem goToHomepageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contactUsToolStripMenuItem;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
