@@ -178,7 +178,7 @@ namespace recipeManagement
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(638, 170);
+            this.pictureBox1.Location = new System.Drawing.Point(636, 167);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(147, 106);
             this.pictureBox1.TabIndex = 4;
