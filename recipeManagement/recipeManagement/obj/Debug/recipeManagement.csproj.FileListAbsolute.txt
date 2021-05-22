@@ -1,0 +1,11 @@
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\bin\Debug\recipeManagement.exe.config
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\bin\Debug\recipeManagement.exe
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\bin\Debug\recipeManagement.pdb
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.csprojAssemblyReference.cache
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.adminlogin.resources
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.Form1.resources
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.Properties.Resources.resources
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.csproj.GenerateResource.cache
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.csproj.CoreCompileInputs.cache
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.exe
+E:\Sana\CS84S71GID28\recipeManagement\recipeManagement\obj\Debug\recipeManagement.pdb
