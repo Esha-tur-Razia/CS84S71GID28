@@ -29,6 +29,7 @@ namespace recipeManagement
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -38,19 +39,21 @@ namespace recipeManagement
             this.goToHomepageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DeepPink;
-            this.label1.Location = new System.Drawing.Point(305, 119);
+            this.label1.Location = new System.Drawing.Point(320, 141);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(348, 92);
+            this.label1.Size = new System.Drawing.Size(593, 158);
             this.label1.TabIndex = 0;
             this.label1.Text = "Recipe management\r\nSystem";
             // 
@@ -88,7 +91,7 @@ namespace recipeManagement
             this.aboutUsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(840, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1012, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -122,12 +125,22 @@ namespace recipeManagement
             this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.contactUsToolStripMenuItem.Text = "contact us";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(626, 213);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(451, 376);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(840, 427);
+            this.ClientSize = new System.Drawing.Size(1012, 427);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel1);
@@ -139,6 +152,7 @@ namespace recipeManagement
             this.panel2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,6 +169,7 @@ namespace recipeManagement
         private System.Windows.Forms.ToolStripMenuItem goToHomepageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contactUsToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
