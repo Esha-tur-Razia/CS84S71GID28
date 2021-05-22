@@ -44,6 +44,7 @@ namespace recipeManagement
             this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -55,7 +56,7 @@ namespace recipeManagement
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DeepPink;
-            this.label1.Location = new System.Drawing.Point(261, 92);
+            this.label1.Location = new System.Drawing.Point(230, 108);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 92);
             this.label1.TabIndex = 0;
@@ -134,7 +135,7 @@ namespace recipeManagement
             this.aboutUsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(840, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(838, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -186,12 +187,24 @@ namespace recipeManagement
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label2.ForeColor = System.Drawing.Color.DeepPink;
+            this.label2.Location = new System.Drawing.Point(235, 224);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(208, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Learn how to cook and share your recipies";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(840, 427);
+            this.ClientSize = new System.Drawing.Size(838, 427);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.label1);
@@ -228,6 +241,7 @@ namespace recipeManagement
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
