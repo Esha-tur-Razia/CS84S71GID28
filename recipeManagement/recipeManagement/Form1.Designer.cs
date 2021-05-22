@@ -39,7 +39,7 @@ namespace recipeManagement
             this.goToHomepageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -60,7 +60,11 @@ namespace recipeManagement
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(-1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(210, 751);
@@ -107,7 +111,7 @@ namespace recipeManagement
             // goToHomepageToolStripMenuItem
             // 
             this.goToHomepageToolStripMenuItem.Name = "goToHomepageToolStripMenuItem";
-            this.goToHomepageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.goToHomepageToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
             this.goToHomepageToolStripMenuItem.Text = "Go to homepage";
             // 
             // aboutUsToolStripMenuItem
@@ -122,25 +126,34 @@ namespace recipeManagement
             // contactUsToolStripMenuItem
             // 
             this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
-            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.contactUsToolStripMenuItem.Text = "contact us";
             // 
-            // pictureBox1
+
+            // panel4
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(626, 213);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(451, 376);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.panel4.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panel4.Location = new System.Drawing.Point(3, 26);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(838, 27);
+            this.panel4.TabIndex = 3;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel5.Location = new System.Drawing.Point(209, 27);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(628, 27);
+            this.panel5.TabIndex = 3;
+            // 
+
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1012, 427);
-            this.Controls.Add(this.pictureBox1);
+
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel1);
@@ -158,18 +171,8 @@ namespace recipeManagement
 
         }
 
-        #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem homepageToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem goToHomepageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem contactUsToolStripMenuItem;
-        private System.Windows.Forms.PictureBox pictureBox1;
+
     }
 }
 
