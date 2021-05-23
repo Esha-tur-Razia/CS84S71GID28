@@ -17,10 +17,28 @@ namespace GuiForMid
             InitializeComponent();
         }
 
+
+        
+        
+        
+        
+        
         private void button1_Click(object sender, EventArgs e)
         {
             var form2 = new Form2();
             form2.Show();
         }
-    }
+
+
+
+
+        
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            admin_login a = new admin_login();
+            a.Show();
+
+        }
+    
 }
