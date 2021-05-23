@@ -34,5 +34,11 @@ namespace GuiForMid
             edit_recipie d = new edit_recipie();
             d.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            search_recipie f = new search_recipie();
+            f.Show();
+        }
     }
 }
