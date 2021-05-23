@@ -16,5 +16,11 @@ namespace GuiForMid
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            add_recipie b = new add_recipie();
+            b.Show();
+        }
     }
 }
