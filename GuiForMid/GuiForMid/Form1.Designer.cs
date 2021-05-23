@@ -1,7 +1,7 @@
 ﻿
 namespace GuiForMid
 {
-    partial class Form1
+    partial class Homepage
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace GuiForMid
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -42,9 +42,11 @@ namespace GuiForMid
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,6 +84,7 @@ namespace GuiForMid
             this.button2.TabIndex = 1;
             this.button2.Text = "About Us";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -94,6 +97,7 @@ namespace GuiForMid
             this.button1.TabIndex = 0;
             this.button1.Text = "User";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuStrip1
             // 
@@ -103,7 +107,7 @@ namespace GuiForMid
             this.aboutUsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(915, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1309, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -118,8 +122,9 @@ namespace GuiForMid
             // goToHomePageToolStripMenuItem
             // 
             this.goToHomePageToolStripMenuItem.Name = "goToHomePageToolStripMenuItem";
-            this.goToHomePageToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.goToHomePageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.goToHomePageToolStripMenuItem.Text = "Go to home page";
+            this.goToHomePageToolStripMenuItem.Click += new System.EventHandler(this.goToHomePageToolStripMenuItem_Click);
             // 
             // aboutUsToolStripMenuItem
             // 
@@ -132,14 +137,15 @@ namespace GuiForMid
             // goToAboutUsToolStripMenuItem
             // 
             this.goToAboutUsToolStripMenuItem.Name = "goToAboutUsToolStripMenuItem";
-            this.goToAboutUsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.goToAboutUsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.goToAboutUsToolStripMenuItem.Text = "Go to about us";
+            this.goToAboutUsToolStripMenuItem.Click += new System.EventHandler(this.goToAboutUsToolStripMenuItem_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(367, 170);
+            this.label1.Location = new System.Drawing.Point(266, 111);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(610, 158);
             this.label1.TabIndex = 2;
@@ -148,7 +154,7 @@ namespace GuiForMid
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(680, 264);
+            this.pictureBox1.Location = new System.Drawing.Point(842, 105);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(333, 298);
             this.pictureBox1.TabIndex = 3;
@@ -159,31 +165,42 @@ namespace GuiForMid
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(306, 422);
+            this.label2.Location = new System.Drawing.Point(308, 286);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(352, 90);
             this.label2.TabIndex = 4;
             this.label2.Text = "Learn how to cook and\r\nshare your recipes";
             // 
-            // Form1
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(666, 364);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(601, 313);
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
+            // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.ClientSize = new System.Drawing.Size(915, 649);
+            this.ClientSize = new System.Drawing.Size(1309, 749);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.DeepPink;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Homepage";
+            this.Text = "HomePage";
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,6 +220,7 @@ namespace GuiForMid
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
