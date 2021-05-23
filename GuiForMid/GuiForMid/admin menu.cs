@@ -40,5 +40,10 @@ namespace GuiForMid
             search_recipie f = new search_recipie();
             f.Show();
         }
+
+        private void admin_menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
