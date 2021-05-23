@@ -34,6 +34,7 @@ namespace GuiForMid
             this.goToHomePageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goToAboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,12 +80,20 @@ namespace GuiForMid
             this.goToAboutUsToolStripMenuItem.Text = "Go to about us";
             this.goToAboutUsToolStripMenuItem.Click += new System.EventHandler(this.goToAboutUsToolStripMenuItem_Click);
             // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(780, 24);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(19, 563);
+            this.vScrollBar1.TabIndex = 2;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Form5";
             this.Text = "Form5";
@@ -102,5 +111,6 @@ namespace GuiForMid
         private System.Windows.Forms.ToolStripMenuItem goToHomePageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goToAboutUsToolStripMenuItem;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
