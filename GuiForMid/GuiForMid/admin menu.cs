@@ -22,5 +22,11 @@ namespace GuiForMid
             add_recipie b = new add_recipie();
             b.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            delete_recipie c = new delete_recipie();
+            c.Show();
+        }
     }
 }
