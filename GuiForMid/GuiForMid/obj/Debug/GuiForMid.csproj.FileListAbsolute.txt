@@ -28,7 +28,14 @@ E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Homepage.resources
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form6.resources
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form7.resources
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form8.resources
+<<<<<<< Updated upstream
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.add_recipie.resources
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.delete_recipie.resources
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.edit_recipie.resources
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.search_recipie.resources
+=======
+E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.add_recipie.resources
+E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.delete_recipie.resources
+E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.edit_recipie.resources
+E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.search_recipie.resources
+>>>>>>> Stashed changes
