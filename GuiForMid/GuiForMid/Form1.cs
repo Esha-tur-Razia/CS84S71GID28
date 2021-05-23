@@ -25,8 +25,8 @@ namespace GuiForMid
         
         private void button1_Click(object sender, EventArgs e)
         {
-            var form3 = new Form3();
-            form3.Show();
+            var form6 = new Form6();
+            form6.Show();
         }
 
 
