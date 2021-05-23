@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -60,10 +60,22 @@ namespace GuiForMid
             form7.Show();
         }
 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         private void button4_Click_1(object sender, EventArgs e)
         {
             admin_login a = new admin_login();
             a.Show();
+
         }
     }
 }

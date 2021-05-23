@@ -1,4 +1,4 @@
-﻿
+
 namespace GuiForMid
 {
     partial class Homepage
@@ -179,6 +179,63 @@ namespace GuiForMid
             this.pictureBox4.Size = new System.Drawing.Size(599, 284);
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button4.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button4.Location = new System.Drawing.Point(0, 139);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(186, 104);
+            this.button4.TabIndex = 0;
+            this.button4.Text = "Admin";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button5.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button5.Location = new System.Drawing.Point(0, 278);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(186, 104);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "User";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button6.Font = new System.Drawing.Font("Rockwell", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button6.Location = new System.Drawing.Point(0, 407);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(186, 104);
+            this.button6.TabIndex = 2;
+            this.button6.Text = "About us";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Homepage
             // 
