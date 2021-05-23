@@ -69,6 +69,7 @@ namespace GuiForMid
             this.goToHomePageToolStripMenuItem.Name = "goToHomePageToolStripMenuItem";
             this.goToHomePageToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.goToHomePageToolStripMenuItem.Text = "Go to home page";
+            this.goToHomePageToolStripMenuItem.Click += new System.EventHandler(this.goToHomePageToolStripMenuItem_Click);
             // 
             // aboutUsToolStripMenuItem
             // 
@@ -83,6 +84,7 @@ namespace GuiForMid
             this.goToAboutUsToolStripMenuItem.Name = "goToAboutUsToolStripMenuItem";
             this.goToAboutUsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.goToAboutUsToolStripMenuItem.Text = "Go to about us";
+            this.goToAboutUsToolStripMenuItem.Click += new System.EventHandler(this.goToAboutUsToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
