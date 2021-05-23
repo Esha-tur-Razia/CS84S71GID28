@@ -35,6 +35,7 @@ namespace GuiForMid
             this.goToHomePageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goToAboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,6 +49,7 @@ namespace GuiForMid
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.homePageToolStripMenuItem,
             this.aboutUsToolStripMenuItem});
@@ -85,13 +87,25 @@ namespace GuiForMid
             this.goToAboutUsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.goToAboutUsToolStripMenuItem.Text = "Go to about us";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(367, 170);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(610, 158);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Recipe Management \r\nSystem";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(835, 379);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.DeepPink;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -110,6 +124,7 @@ namespace GuiForMid
         private System.Windows.Forms.ToolStripMenuItem goToHomePageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goToAboutUsToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 
