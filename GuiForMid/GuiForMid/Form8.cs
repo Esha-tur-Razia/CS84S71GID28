@@ -16,5 +16,17 @@ namespace GuiForMid
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            var form1 = new Homepage();
+            form1.Show();
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            var form7 = new Form7();
+            form7.Show();
+        }
     }
 }

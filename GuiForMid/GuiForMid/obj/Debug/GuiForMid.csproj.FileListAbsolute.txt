@@ -2,7 +2,6 @@ C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\bin\Debu
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\bin\Debug\GuiForMid.exe
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\bin\Debug\GuiForMid.pdb
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csprojAssemblyReference.cache
-C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form1.resources
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Properties.Resources.resources
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csproj.GenerateResource.cache
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csproj.CoreCompileInputs.cache
@@ -20,3 +19,9 @@ E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csproj.CoreCompileI
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.exe
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.pdb
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.admin_menu.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.admin_login.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.admin_menu.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Homepage.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form6.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form7.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form8.resources
