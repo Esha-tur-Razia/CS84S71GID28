@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GuiForMid
 {
-    public partial class Form1 : Form
+    public partial class Homepage : Form
     {
-        public Form1()
+        public Homepage()
         {
             InitializeComponent();
         }
@@ -25,8 +25,8 @@ namespace GuiForMid
         
         private void button1_Click(object sender, EventArgs e)
         {
-            var form2 = new Form2();
-            form2.Show();
+            var form3 = new Form3();
+            form3.Show();
         }
 
 

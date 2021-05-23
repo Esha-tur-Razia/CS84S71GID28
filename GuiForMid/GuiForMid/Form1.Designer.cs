@@ -1,7 +1,7 @@
 ﻿
 namespace GuiForMid
 {
-    partial class Form1
+    partial class Homepage
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace GuiForMid
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -166,7 +166,7 @@ namespace GuiForMid
             this.label2.TabIndex = 4;
             this.label2.Text = "Learn how to cook and\r\nshare your recipes";
             // 
-            // Form1
+            // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -179,7 +179,7 @@ namespace GuiForMid
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.DeepPink;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "Homepage";
             this.Text = "HomePage";
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
