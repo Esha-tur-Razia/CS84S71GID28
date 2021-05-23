@@ -93,6 +93,7 @@ namespace GuiForMid
             this.button1.TabIndex = 0;
             this.button1.Text = "User";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuStrip1
             // 
@@ -178,7 +179,7 @@ namespace GuiForMid
             this.ForeColor = System.Drawing.Color.DeepPink;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "HomePage";
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
