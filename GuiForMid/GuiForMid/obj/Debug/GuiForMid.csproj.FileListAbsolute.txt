@@ -1,0 +1,10 @@
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\bin\Debug\GuiForMid.exe.config
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\bin\Debug\GuiForMid.exe
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\bin\Debug\GuiForMid.pdb
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csprojAssemblyReference.cache
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Form1.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.Properties.Resources.resources
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csproj.GenerateResource.cache
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csproj.CoreCompileInputs.cache
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.exe
+C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.pdb
