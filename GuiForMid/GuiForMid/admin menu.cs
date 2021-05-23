@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GuiForMid
 {
-    public partial class adminmenu : Form
+    public partial class admin_menu : Form
     {
-        public adminmenu()
+        public admin_menu()
         {
             InitializeComponent();
         }

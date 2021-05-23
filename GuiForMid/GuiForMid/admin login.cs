@@ -16,5 +16,11 @@ namespace GuiForMid
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            admin_menu b = new admin_menu();
+            b.Show();
+        }
     }
 }

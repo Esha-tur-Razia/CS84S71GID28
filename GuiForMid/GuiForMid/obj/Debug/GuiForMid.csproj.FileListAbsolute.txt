@@ -19,3 +19,4 @@ E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csproj.GenerateReso
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.csproj.CoreCompileInputs.cache
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.exe
 E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.pdb
+E:\Sana\CS84S71GID28\GuiForMid\GuiForMid\obj\Debug\GuiForMid.admin_menu.resources

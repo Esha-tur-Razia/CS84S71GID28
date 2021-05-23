@@ -52,6 +52,12 @@
     <Compile Include="admin login.Designer.cs">
       <DependentUpon>admin login.cs</DependentUpon>
     </Compile>
+    <Compile Include="admin menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin menu.Designer.cs">
+      <DependentUpon>admin menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="admin login.resx">
       <DependentUpon>admin login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin menu.resx">
+      <DependentUpon>admin menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
