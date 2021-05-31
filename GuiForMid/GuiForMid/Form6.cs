@@ -36,8 +36,22 @@ namespace GuiForMid
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             var form8 = new Form8();
             form8.Show();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                Properties.Settings.Default.Save();
+            }
         }
     }
 }
