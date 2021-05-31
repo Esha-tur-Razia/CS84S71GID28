@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace GuiForMid
 {
     class RecipeList
-    {
+    { 
+
+  
+
+     
     }
 }
