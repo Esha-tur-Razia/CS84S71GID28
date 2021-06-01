@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,65 @@ using System.Threading.Tasks;
 
 namespace GuiForMid
 {
-    class Recipes
+    class Recipes : Ingredients
+
     {
         private string Title;
         private Instruction instruction;
+        private static Recipes instance;
+
+
+        private Recipes()
+        {
+            var Ingredients = new ArrayList();
+        }
+        public static Recipes getInstance()
+        {
+            if (instance == null)
+            {
+                instance = new Recipes();
+            }
+
+            return instance;
+        }
+        public void addContact(Ingredients I)
+        {
+            Ingredients.add(I);
+        }
+
+        private int searchIngredients(String name)
+        {
+            int index = -1;
+            for (int i = 0; i < name.Length; i++)
+            {
+                if (Ingredients.get(i).getIngredientsName().equals(name))
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            return index;
+        }
+
+
+        public Ingredients getIngredients(String name)
+        {
+            int index = searchIngredients(name);
+            return Ingredients.set(index);
+        }
+        public Boolean updateContact(String name, Ingredients I)
+        {
+            int index = searchIngredients(name);
+
+            if (index == -1)
+                return false;
+            else
+            {
+                Ingredients.Equals(index, I);
+                return true;
+            }
+        }
 
         public Recipes(string title, Instruction instruction)
         {
