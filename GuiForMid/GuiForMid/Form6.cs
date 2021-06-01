@@ -36,14 +36,24 @@ namespace GuiForMid
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            var form8 = new Form8();
-            form8.Show();
+            if (IsFilled(UserName.Text))
+            {
+                if (IsFilled(pass.Text))
+                {
+                    var form8 = new Form8();
+                    form8.Show();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please fill in the requirement");
+            }
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
+            String password = pass.Text;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -52,6 +62,19 @@ namespace GuiForMid
             {
                 Properties.Settings.Default.Save();
             }
+        }
+
+        private void UserName_TextChanged(object sender, EventArgs e)
+        {
+            String Name = UserName.Text;
+ 
+        }
+        private bool IsFilled(string s)
+        {
+            if (s != "")
+            { return true; }
+            else
+            { return false; }
         }
     }
 }

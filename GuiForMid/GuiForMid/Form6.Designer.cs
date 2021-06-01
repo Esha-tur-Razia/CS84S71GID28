@@ -124,6 +124,7 @@ namespace GuiForMid
             this.UserName.Name = "UserName";
             this.UserName.Size = new System.Drawing.Size(301, 20);
             this.UserName.TabIndex = 8;
+            this.UserName.TextChanged += new System.EventHandler(this.UserName_TextChanged);
             // 
             // pass
             // 
