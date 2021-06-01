@@ -19,8 +19,26 @@ namespace GuiForMid
 
         private void button1_Click(object sender, EventArgs e)
         {
-            admin_menu b = new admin_menu();
-            b.Show();
+            if (IsFilled(textBox1.Text))
+            {
+                if (IsFilled(textBox2.Text))
+                {
+                    admin_menu b = new admin_menu();
+                    b.Show();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please fill in the requirement");
+            }
+
+        }
+        private bool IsFilled(string s)
+        {
+            if (s != "")
+            { return true; }
+            else
+            { return false; }
         }
     }
 }

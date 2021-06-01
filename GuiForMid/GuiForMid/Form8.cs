@@ -28,5 +28,11 @@ namespace GuiForMid
             var form7 = new Form7();
             form7.Show();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            String recipe = textBox1.Text;
+
+        }
     }
 }

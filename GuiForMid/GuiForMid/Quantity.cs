@@ -10,7 +10,6 @@ namespace GuiForMid
     class Quantity
     {
         private double scale;
-        get { return Scale; }
         public override string ToString()
         {
             return base.ToString();
