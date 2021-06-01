@@ -36,5 +36,7 @@ namespace GuiForMid
             hashCode = hashCode * -1521134295 + EqualityComparer<Instruction>.Default.GetHashCode(instruction);
             return hashCode;
         }
+
+        
     }
 }

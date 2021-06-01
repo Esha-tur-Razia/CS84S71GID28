@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Amazon.ECS.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +10,11 @@ namespace GuiForMid
     class Quantity
     {
         private double scale;
+        get { return Scale; }
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
     }
 }
