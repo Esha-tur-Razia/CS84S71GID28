@@ -8,5 +8,7 @@ namespace GuiForMid
 {
     class Ingredients
     {
+        private String name;
+  
     }
 }

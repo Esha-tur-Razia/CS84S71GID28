@@ -8,5 +8,6 @@ namespace GuiForMid
 {
     class Quantity
     {
+        private double scale;
     }
 }
