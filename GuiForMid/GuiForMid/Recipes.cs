@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace GuiForMid
 {
@@ -109,7 +110,33 @@ namespace GuiForMid
         {
             return Ingredients;
         }
+        public void ReadData()
+        {
+            FileStream fs = new FileStream("Ingredient.txt", FileMode.Open, FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
 
+            sr.BaseStream.Seek(0, SeekOrigin.Begin);
+            string str = sr.ReadLine();
+            while (str != null)
+            {
+                Console.WriteLine(str);
+                str = sr.ReadLine();
+            }
+            Console.ReadLine();
+            sr.Close();
+            fs.Close();
+        }
+        public void WriteData()
+        {
+            FileStream fs = new FileStream("Ingredient.txt", FileMode.Append, FileAccess.Write);
+            StreamWriter sw = new StreamWriter(fs);
+ 
+            string str = Console.ReadLine();
+            sw.WriteLine(str);
+            sw.Flush();
+            sw.Close();
+            fs.Close();
+        }
 
     }
 }
