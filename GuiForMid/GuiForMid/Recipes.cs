@@ -17,7 +17,7 @@ namespace GuiForMid
 
         private Recipes()
         {
-            var Ingredients = new ArrayList();
+     ArrayList Ingredients = new ArrayList();
         }
         public static Recipes getInstance()
         {
@@ -30,7 +30,7 @@ namespace GuiForMid
         }
         public void addContact(Ingredients I)
         {
-            Ingredients.add(I);
+            Ingredients.Add(I);
         }
 
         private int searchIngredients(String name)
@@ -54,7 +54,7 @@ namespace GuiForMid
             int index = searchIngredients(name);
             return Ingredients.set(index);
         }
-        public Boolean updateContact(String name, Ingredients I)
+        public Boolean updateInngredient(string name, Ingredients I)
         {
             int index = searchIngredients(name);
 
@@ -92,7 +92,24 @@ namespace GuiForMid
             hashCode = hashCode * -1521134295 + EqualityComparer<Instruction>.Default.GetHashCode(instruction);
             return hashCode;
         }
+        public Boolean delteIngredient(String name)
+        {
+            int index = searchIngredients(name);
 
-        
+            if (index == -1)
+                return false;
+            else
+            {
+                Ingredients.remove(index);
+                return true;
+            }
+        }
+
+        public List<Ingredients> getAllIngredients()
+        {
+            return Ingredients;
+        }
+
+
     }
 }

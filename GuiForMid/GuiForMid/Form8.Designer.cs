@@ -67,7 +67,7 @@ namespace GuiForMid
             this.toolStripMenuItem2});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1093, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(1209, 24);
             this.menuStrip2.TabIndex = 7;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -129,7 +129,7 @@ namespace GuiForMid
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(1079, 24);
+            this.vScrollBar1.Location = new System.Drawing.Point(1195, 24);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(14, 1097);
             this.vScrollBar1.TabIndex = 11;
@@ -242,7 +242,7 @@ namespace GuiForMid
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1093, 749);
+            this.ClientSize = new System.Drawing.Size(1209, 749);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.progressBar1);
