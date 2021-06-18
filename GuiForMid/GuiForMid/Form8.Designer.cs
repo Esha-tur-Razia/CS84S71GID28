@@ -51,6 +51,7 @@ namespace GuiForMid
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.Search = new System.Windows.Forms.Button();
             this.menuStrip2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -105,7 +106,7 @@ namespace GuiForMid
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(64, 61);
+            this.label1.Location = new System.Drawing.Point(56, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(233, 23);
             this.label1.TabIndex = 8;
@@ -156,9 +157,9 @@ namespace GuiForMid
             this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
             this.flowLayoutPanel1.Controls.Add(this.checkBox4);
             this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(109, 120);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(109, 136);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(762, 617);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(762, 601);
             this.flowLayoutPanel1.TabIndex = 12;
             // 
             // checkBox1
@@ -237,12 +238,24 @@ namespace GuiForMid
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
+            // Search
+            // 
+            this.Search.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Search.Location = new System.Drawing.Point(682, 57);
+            this.Search.Name = "Search";
+            this.Search.Size = new System.Drawing.Size(75, 23);
+            this.Search.TabIndex = 13;
+            this.Search.Text = "Enter";
+            this.Search.UseVisualStyleBackColor = false;
+            this.Search.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1209, 749);
+            this.Controls.Add(this.Search);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.progressBar1);
@@ -286,5 +299,6 @@ namespace GuiForMid
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button Search;
     }
 }
