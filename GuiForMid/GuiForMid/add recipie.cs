@@ -25,8 +25,23 @@ namespace GuiForMid
 
         private void button1_Click(object sender, EventArgs e)
         {
+            using (StreamWriter sw = new StreamWriter(path))
+            {
+                sw.WriteLine();
+            }
+            using (StreamWriter sw = new StreamWriter(path2))
+            {
+                sw.WriteLine();
+            }
+            using (StreamWriter sw = new StreamWriter(path3))
+            {
+                sw.WriteLine();
+            }
+            using (StreamWriter sw = new StreamWriter(path4))
+            {
+                sw.WriteLine();
+            }
 
-            
         }
     }
 }
