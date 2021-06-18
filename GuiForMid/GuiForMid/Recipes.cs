@@ -8,7 +8,7 @@ using System.IO;
 
 namespace GuiForMid
 {
-    class Recipes : Ingredients
+    class Recipes
 
     {
         private string Title;
@@ -16,10 +16,10 @@ namespace GuiForMid
         private static Recipes instance;
 
 
-        private Recipes()
-        {
-     ArrayList Ingredients = new ArrayList();
-        }
+        
+        
+           List<Recipes> RecipeList = new List<Recipes>();
+        
         public static Recipes getInstance()
         {
             if (instance == null)
@@ -29,17 +29,17 @@ namespace GuiForMid
 
             return instance;
         }
-        public void addContact(Ingredients I)
+        public void addRecipes(Recipes R)
         {
-            Ingredients.Add(I);
+            RecipeList.Add(R);
         }
 
-        private int searchIngredients(String name)
+        private int searchRecipes(String name)
         {
             int index = -1;
             for (int i = 0; i < name.Length; i++)
             {
-                if (Ingredients.get(i).getIngredientsName().equals(name))
+                if (RecipeList.FindIndex(i).getRecipesName().equals(name))
                 {
                     index = i;
                     break;
@@ -50,20 +50,20 @@ namespace GuiForMid
         }
 
 
-        public Ingredients getIngredients(String name)
+        public Recipes getRecipes(String name)
         {
-            int index = searchIngredients(name);
-            return Ingredients.set(index);
+            int index = searchRecipes(name);
+            return RecipeList.Contains(index);
         }
-        public Boolean updateInngredient(string name, Ingredients I)
+        public Boolean updateRecipes(string name, Recipes R)
         {
-            int index = searchIngredients(name);
+            int index = searchRecipes(name);
 
             if (index == -1)
                 return false;
             else
             {
-                Ingredients.Equals(index, I);
+                RecipeList.Equals(index, R);
                 return true;
             }
         }
@@ -72,6 +72,10 @@ namespace GuiForMid
         {
             Title = title;
             this.instruction = instruction;
+        }
+
+        public Recipes()
+        {
         }
 
         public override string ToString()
@@ -93,26 +97,26 @@ namespace GuiForMid
             hashCode = hashCode * -1521134295 + EqualityComparer<Instruction>.Default.GetHashCode(instruction);
             return hashCode;
         }
-        public Boolean delteIngredient(String name)
+        public Boolean deleteRecipes(String name)
         {
-            int index = searchIngredients(name);
+            int index = searchRecipes(name);
 
             if (index == -1)
                 return false;
             else
             {
-                Ingredients.remove(index);
+                RecipeList.Remove(index);
                 return true;
             }
         }
 
-        public List<Ingredients> getAllIngredients()
+        public List<RecipeList> getAllRecipes()
         {
-            return Ingredients;
+            return Recipes;
         }
         public void ReadData()
         {
-            FileStream fs = new FileStream("Ingredient.txt", FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream("Recipes.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fs);
 
             sr.BaseStream.Seek(0, SeekOrigin.Begin);
@@ -128,7 +132,7 @@ namespace GuiForMid
         }
         public void WriteData()
         {
-            FileStream fs = new FileStream("Ingredient.txt", FileMode.Append, FileAccess.Write);
+            FileStream fs = new FileStream("Recipes.txt", FileMode.Append, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
  
             string str = Console.ReadLine();
