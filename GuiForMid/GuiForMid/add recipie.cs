@@ -30,23 +30,23 @@ namespace GuiForMid
 
             using (StreamWriter sw = new StreamWriter(path))
             {
-                char name = default;
+                String name = textBox1.Text;
                 sw.WriteLine(name);
             }
             using (StreamWriter sw = new StreamWriter(path2))
             {
-                char ingredients = default;
+                String ingredients = textBox2.Text;
                 sw.WriteLine(ingredients);
             }
             using (StreamWriter sw = new StreamWriter(path3))
             {
-                char quantity = default;
+                String quantity = textBox3.Text;
                 sw.WriteLine(quantity);
             }
             using (StreamWriter sw = new StreamWriter(path4))
             {
-                char dscription = default;
-                sw.WriteLine(dscription);
+                String description = textBox4.Text;
+                sw.WriteLine(description);
             }
 
         }
@@ -69,7 +69,7 @@ namespace GuiForMid
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            String desription = textBox4.Text;
+            String description = textBox4.Text;
         }
     }
 }
