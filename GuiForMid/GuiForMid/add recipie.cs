@@ -25,6 +25,7 @@ namespace GuiForMid
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             using (StreamWriter sw = new StreamWriter(path))
             {
                 sw.WriteLine();
@@ -42,6 +43,27 @@ namespace GuiForMid
                 sw.WriteLine();
             }
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            String name = textBox1.Text;
+           
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            String ingredients = textBox2.Text;
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            String quantity = textBox3.Text;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            String desription = textBox4.Text;
         }
     }
 }
