@@ -13,8 +13,11 @@ namespace GuiForMid
 {
     public partial class add_recipie : Form
     {
-      
 
+        String path = Environment.CurrentDirectory + "/" + "Name.txt";
+        String path2 = Environment.CurrentDirectory + "/" + "Ingredient.txt";
+        String path3 = Environment.CurrentDirectory + "/" + "Quantity.txt";
+        String path4 = Environment.CurrentDirectory + "/" + "Recipe.txt";
         public add_recipie()
         {
             InitializeComponent();
@@ -22,8 +25,8 @@ namespace GuiForMid
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-           
+
+            
         }
     }
 }
