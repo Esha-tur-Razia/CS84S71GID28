@@ -48,7 +48,7 @@ namespace GuiForMid
                 String description = textBox4.Text;
                 sw.WriteLine(description);
             }
-
+            MessageBox.Show("Written into the file");
         }
         
         private void textBox1_TextChanged(object sender, EventArgs e)
