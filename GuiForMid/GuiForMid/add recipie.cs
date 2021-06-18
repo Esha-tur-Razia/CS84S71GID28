@@ -18,6 +18,8 @@ namespace GuiForMid
         String path2 = Environment.CurrentDirectory + "/" + "Ingredient.txt";
         String path3 = Environment.CurrentDirectory + "/" + "Quantity.txt";
         String path4 = Environment.CurrentDirectory + "/" + "Recipe.txt";
+        
+
         public add_recipie()
         {
             InitializeComponent();
@@ -28,23 +30,27 @@ namespace GuiForMid
 
             using (StreamWriter sw = new StreamWriter(path))
             {
-                sw.WriteLine();
+                char name = default;
+                sw.WriteLine(name);
             }
             using (StreamWriter sw = new StreamWriter(path2))
             {
-                sw.WriteLine();
+                char ingredients = default;
+                sw.WriteLine(ingredients);
             }
             using (StreamWriter sw = new StreamWriter(path3))
             {
-                sw.WriteLine();
+                char quantity = default;
+                sw.WriteLine(quantity);
             }
             using (StreamWriter sw = new StreamWriter(path4))
             {
-                sw.WriteLine();
+                char dscription = default;
+                sw.WriteLine(dscription);
             }
 
         }
-
+        
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             String name = textBox1.Text;
