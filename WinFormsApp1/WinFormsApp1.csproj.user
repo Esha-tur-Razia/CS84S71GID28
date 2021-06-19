@@ -13,6 +13,15 @@
     <Compile Update="AdminMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Deleterecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Editrecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Process.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Register.cs">
       <SubType>Form</SubType>
     </Compile>

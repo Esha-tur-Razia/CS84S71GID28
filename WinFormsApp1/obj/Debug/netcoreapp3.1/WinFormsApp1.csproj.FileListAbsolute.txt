@@ -20,3 +20,6 @@ E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AboutUs.r
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AdminMenu.resources
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AddRecipe.resources
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Register.resources
+E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Process.resources
+E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Deleterecipe.resources
+E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Editrecipe.resources
