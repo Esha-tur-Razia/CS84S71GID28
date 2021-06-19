@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class AdminMenu : Form
     {
-        public Form1()
+        public AdminMenu()
         {
             InitializeComponent();
         }
 
+        private void ADD_Click(object sender, EventArgs e)
+        {
+            AddRecipe rec = new AddRecipe();
+            rec.Show();
+            this.Hide();
+        }
     }
 }
