@@ -24,7 +24,9 @@ namespace WinFormsApp1
 
         private void login_Click(object sender, EventArgs e)
         {
-
+            user_search us = new user_search();
+            us.Show();
+            this.Hide();
         }
 
         private void registerBtn_Click(object sender, EventArgs e)
