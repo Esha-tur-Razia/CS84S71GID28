@@ -61,6 +61,7 @@ namespace WinFormsApp1
                     {
                         if(user.SetAge(age))
                         {
+                            user.GenerateID();
                             Driver.GetInstance().GetUser().Add(user);
                             MessageBox.Show("You have been registered Successfully");
                             UserLogin userc = new UserLogin();

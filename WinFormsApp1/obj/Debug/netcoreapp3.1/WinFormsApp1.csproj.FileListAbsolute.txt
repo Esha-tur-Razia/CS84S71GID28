@@ -23,6 +23,7 @@ E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Register.
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Process.resources
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Deleterecipe.resources
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Editrecipe.resources
+<<<<<<< Updated upstream
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
@@ -41,3 +42,7 @@ C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\obj\Debug\netco
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
 C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
+=======
+E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Accounts.resources
+E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Deleteaccount.resources
+>>>>>>> Stashed changes

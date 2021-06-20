@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace WinFormsApp1
 {
@@ -32,6 +33,30 @@ namespace WinFormsApp1
         public List<Process1> GetProcess1()
         {
             return Pro;
+        }
+        public void WriteRecipe()
+        {
+            StreamWriter sw = new StreamWriter("Recipe.txt");
+            string s1="";
+
+            string s2 = "";
+           
+
+            for (int i = 0; i < Driver.GetInstance().GetRecipe().Count;i++)
+            {
+                for(int j=0;j< Driver.GetInstance().GetRecipe()[i].list.Count; j++)
+                {
+                    s1 += Driver.GetInstance().GetRecipe()[i].list[j].GetName() + ",";
+                    s2+= Driver.GetInstance().GetRecipe()[i].list[j].GetQuantity() + ",";
+                }
+
+                sw.WriteLine(recipe[i].GetName() + ";"+s1+";"+s2+";"+ recipe[i].GetDescription());
+
+               
+            }
+
+            sw.Flush();
+            sw.Close();
         }
 
         

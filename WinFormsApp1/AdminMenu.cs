@@ -48,5 +48,20 @@ namespace WinFormsApp1
             edit.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Accounts acc = new Accounts();
+            acc.Show();
+            this.Hide();
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Deleteaccount del = new Deleteaccount();
+            del.Show();
+            this.Hide();
+        }
     }
 }

@@ -4,6 +4,9 @@
     <Compile Update="AboutUs.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="AddRecipe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -11,6 +14,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Deleteaccount.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Deleterecipe.cs">

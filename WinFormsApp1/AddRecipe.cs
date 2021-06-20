@@ -72,8 +72,11 @@ namespace WinFormsApp1
                             if (check == 1)
                             {
                                 res.list.Add(ing);
+
                                 Driver.GetInstance().GetRecipe().Add(res);
                                 MessageBox.Show("Your data has been added successfully");
+                                MessageBox.Show(res.list.Count+"");
+                                Driver.GetInstance().WriteRecipe();
                                 Process pr = new Process();
                                             pr.Show();
                                             this.Hide();
