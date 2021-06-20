@@ -14,5 +14,10 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void search_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
