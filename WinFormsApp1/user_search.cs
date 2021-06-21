@@ -11,6 +11,7 @@ namespace WinFormsApp1
 {
     public partial class user_search : Form
     {
+        int index = -1;
         public user_search()
         {
             InitializeComponent();
@@ -31,31 +32,37 @@ namespace WinFormsApp1
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            //the path of the file
-            FileStream inFile = new FileStream(path, FileMode.Open, FileAccess.Read);
-            StreamReader reader = new StreamReader(inFile);
-            string record;
+
+
             String userSearch = search.Text;
-            try
+            if (!userSearch.Equals(null))
             {
-                //the program reads the record and displays it on the screen
-                record = reader.ReadLine();
-                while (record != null)
+                for (int i = 0; i < Driver.GetInstance().GetRecipe().Count; i++)
                 {
-                    if (record.Contains(userSearch))
+                    if (userSearch.Equals(Driver.GetInstance().GetRecipe()[i].GetName()))
                     {
-                        richTextBox1.LoadFile(path);
+                        index = i;
+                        break;
                     }
-                    record = reader.ReadLine();
+                    else
+                    {
+                        index = -1;
+                    }
+                }
+                if (index == -1)
+                {
+                    MessageBox.Show("Recipe not found!!");
+                }
+                else
+                {
+                    
+                    richTextBox1.Text = Driver.GetInstance().GetRecipe()[index].GetDescription();
                 }
             }
-            finally
+            else
             {
-                //after the record is done being read, the progam closes
-                reader.Close();
-                inFile.Close();
+                MessageBox.Show("Field is empty");
             }
-
         }
     }
 }
