@@ -24,6 +24,7 @@ namespace WinFormsApp1
                 if (pro.SetProcess(process))
                 {
                     Driver.GetInstance().GetProcess1().Add(pro);
+                    Driver.GetInstance().WriteProcess();
                     AdminMenu a = new AdminMenu();
                     a.Show();
                     this.Hide();

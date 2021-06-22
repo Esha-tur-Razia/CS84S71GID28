@@ -1,6 +1,4 @@
 ﻿
-using System;
-
 namespace WinFormsApp1
 {
     partial class user_search
@@ -38,6 +36,7 @@ namespace WinFormsApp1
             this.search = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,10 +83,9 @@ namespace WinFormsApp1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(30, 171);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(512, 339);
+            this.richTextBox1.Size = new System.Drawing.Size(512, 204);
             this.richTextBox1.TabIndex = 4;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // button1
             // 
@@ -100,7 +98,18 @@ namespace WinFormsApp1
             this.button1.TabIndex = 5;
             this.button1.Text = "Upcoming events";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.DeepPink;
+            this.button2.Location = new System.Drawing.Point(628, 319);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(185, 56);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Magazines";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // user_search
             // 
@@ -108,6 +117,7 @@ namespace WinFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1099, 558);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.search);
@@ -122,11 +132,6 @@ namespace WinFormsApp1
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -135,5 +140,6 @@ namespace WinFormsApp1
         private System.Windows.Forms.TextBox search;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

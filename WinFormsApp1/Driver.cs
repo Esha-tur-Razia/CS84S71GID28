@@ -34,6 +34,7 @@ namespace WinFormsApp1
         {
             return Pro;
         }
+
         public void WriteRecipe()
         {
             StreamWriter sw = new StreamWriter("Recipe.txt");
@@ -46,8 +47,16 @@ namespace WinFormsApp1
             {
                 for(int j=0;j< Driver.GetInstance().GetRecipe()[i].list.Count; j++)
                 {
-                    s1 += Driver.GetInstance().GetRecipe()[i].list[j].GetName() + ",";
-                    s2+= Driver.GetInstance().GetRecipe()[i].list[j].GetQuantity() + ",";
+                    if (j==(Driver.GetInstance().GetRecipe()[i].list.Count) - 1)
+                    {
+                        s1 += Driver.GetInstance().GetRecipe()[i].list[j].GetName() ;
+                        s2 += Driver.GetInstance().GetRecipe()[i].list[j].GetQuantity() ;
+                    }
+                    else
+                    {
+                        s1 += Driver.GetInstance().GetRecipe()[i].list[j].GetName() + ",";
+                        s2 += Driver.GetInstance().GetRecipe()[i].list[j].GetQuantity() + ",";
+                    }
                 }
 
                 sw.WriteLine(recipe[i].GetName() + ";"+s1+";"+s2+";"+ recipe[i].GetDescription());
@@ -59,8 +68,54 @@ namespace WinFormsApp1
             sw.Close();
         }
 
-        
-       
+        public void WriteProcess()
+        {
+            try
+            {
+                StreamWriter s = new StreamWriter("Processes.txt");
+                for (int i = 0; i < Driver.GetInstance().GetProcess1().Count; i++)
+                {
+                    if (i == 0)
+                        s.WriteLine(Driver.GetInstance().GetProcess1()[i].GetDescription());
+                    else
+                        s.WriteLine(",\n" + Driver.GetInstance().GetProcess1()[i].GetDescription());
+                }
+                s.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Process file not found");
+            }
+        }
+
+        public void ReadProcess()
+        {
+            try
+            {
+                String pro = File.ReadAllText("Processes.txt");
+                if (pro.Equals(null))
+                {
+                    Console.WriteLine("No data Entered Yet");
+                }
+                else
+                {
+                    String[] toks = pro.Split(",\n");
+                    for (int i = 0; i < toks.Length; i++)
+                    {
+                        Process1 p = new Process1();
+                        p.SetProcess(toks[i]);
+                        Driver.GetInstance().GetProcess1().Add(p);
+                        Console.WriteLine(p.GetDescription());
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Process file not found");
+            }
+        }
+
+
 
         public static Driver GetInstance()
         {
