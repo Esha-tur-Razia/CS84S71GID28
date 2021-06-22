@@ -46,3 +46,4 @@ C:\Users\DC\Documents\oop\FinalProject\CS84S71GID28\WinFormsApp1\obj\Debug\netco
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Accounts.resources
 E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Deleteaccount.resources
 >>>>>>> Stashed changes
+E:\Sana\CS84S71GID28\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.user_search.resources

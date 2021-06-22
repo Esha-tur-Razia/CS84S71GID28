@@ -54,6 +54,7 @@ namespace WinFormsApp1
                                     if (ing.SetName(token2[i]))
                                     {
                                         check =1;
+                                        res.list.Add(ing);
                                     }
                                     else
                                     {
@@ -71,7 +72,7 @@ namespace WinFormsApp1
                             }
                             if (check == 1)
                             {
-                                res.list.Add(ing);
+                                
 
                                 Driver.GetInstance().GetRecipe().Add(res);
                                 MessageBox.Show("Your data has been added successfully");
