@@ -77,6 +77,7 @@ namespace WinFormsApp1
                     Boolean flag = Driver.GetInstance().GetRecipe()[index].SetDescription(richText.Text);
                     
                 }
+                Driver.GetInstance().WriteRecipe();
                 MessageBox.Show("Data updated successfully");
                 AdminMenu ad = new AdminMenu();
                 ad.Show();

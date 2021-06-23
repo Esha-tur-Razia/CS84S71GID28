@@ -1,1 +1,2 @@
-fries;potatoes,;2,;gfhgh
+Rice;oil,rice;1,2;ajvfjhc
+fries;oil,riceoil,potatoes;1,21,2;fhfhfg

@@ -62,5 +62,16 @@ namespace WinFormsApp1
             return this.description;
         }
 
+        public String ToString()
+        {
+            String n = "";
+            n += this.name + "\n" + this.description + "\n";
+            for (int i =0;i<list.Count;i++)
+            {
+                n += list[i].GetName() + "      " + list[i].GetQuantity() + "\n";
+            }
+            return n;
+        }
+
     }
 }

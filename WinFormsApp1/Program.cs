@@ -14,6 +14,8 @@ namespace WinFormsApp1
         [STAThread]
         static void Main()
         {
+            Driver.GetInstance().ReadProcess();
+            Driver.GetInstance().ReadRecipe();
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

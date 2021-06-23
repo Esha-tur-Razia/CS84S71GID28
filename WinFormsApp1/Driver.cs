@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
@@ -114,7 +115,39 @@ namespace WinFormsApp1
                 Console.WriteLine("Process file not found");
             }
         }
+        public void ReadRecipe()
+        {
+            try
+            {
+                StreamReader rd = new StreamReader("Recipe.txt");
+                String line = rd.ReadLine();
+                while(line!=null)
+                {
+                    Recipe rec = new Recipe();
+                    String[] toks = line.Split(";");
+                    
+                    rec.SetName(toks[0]);
+                    rec.SetDescription(toks[3]);
+                    String[] token1 = toks[1].Split(",");
+                    String[] token2 = toks[2].Split(",");
+                    for(int j=0;j<token1.Length;j++)
+                    {
+                        Ingredients ing = new Ingredients();
+                        ing.SetName(token1[j]);
+                        ing.SetQuantity(token2[j]);
+                        rec.list.Add(ing);
+                    }
+                    Driver.GetInstance().GetRecipe().Add(rec);
+                    //MessageBox.Show(rec.ToString());
+                    line = rd.ReadLine();
 
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Recipe File not found");
+            }
+        }
 
 
         public static Driver GetInstance()

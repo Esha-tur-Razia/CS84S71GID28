@@ -46,6 +46,7 @@ namespace WinFormsApp1
                 if (check == 0)
                 {
                     MessageBox.Show("Data has been removed successfully");
+                    Driver.GetInstance().WriteRecipe();
                     AdminMenu m = new AdminMenu();
                     m.Show();
                     this.Hide();

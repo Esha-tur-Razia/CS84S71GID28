@@ -44,10 +44,11 @@ namespace WinFormsApp1
                         if (token2.Length == token1.Length)
                         {
                             int check=-1;
-                            Ingredients ing = new Ingredients();
+                            
 
                             for(int i = 0; i < token1.Length; i++)
                             {
+                                Ingredients ing = new Ingredients();
                                 if (ing.SetQuantity(token1[i]))
                                 {
                                     check = 1;
